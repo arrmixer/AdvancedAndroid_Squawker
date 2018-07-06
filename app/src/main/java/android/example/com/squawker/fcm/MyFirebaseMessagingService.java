@@ -82,6 +82,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 return null;
             }
         };
+
+        insertSquawkTask.execute();
     }
 
     // TODO (3) As part of the new Service - If there is message data, get the data using
